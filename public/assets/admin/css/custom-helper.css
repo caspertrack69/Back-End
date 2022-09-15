@@ -1,0 +1,65 @@
+/* text trim */
+.text-trim-25 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 25vw;
+}
+
+.text-trim-50 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50vw;
+}
+
+.text-trim-60 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50vw;
+}
+
+.text-trim-70 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 70vw;
+}
+
+
+/* flex */
+.flex-start {
+    display: flex;
+    justify-content:flex-start;
+}
+.flex-between {
+    display: flex;
+    justify-content:space-between;
+}
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.row-center {
+    display: flex;
+    justify-content:center;
+}
+
+.scroll-bar {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto !important;
+}
+
+
+/* shadow image*/
+.shadow-image {
+    /*width: auto;*/
+    /*height: auto;*/
+    border:2px solid #fff;
+    /*background: url(img/image.png) no-repeat;*/
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
